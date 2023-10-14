@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import emailjs from '@emailjs/browser';
+import Loading from "./Loading.vue";
 const myform = ref(null)
 const kirim = ref(false)
 const status = ref("")
@@ -29,9 +30,15 @@ const disubmit = () => {
     <div>
         <div v-if="kirim">
             <div class="p-6 text-center">
-                <h4 class="text-3xl">
+                <div v-if="status" >
+                    <h4 class="text-3xl">
                     {{ status }}
                 </h4>
+                </div>
+                <div v-else>
+                  <Loading />
+                </div>
+               
             </div>
         </div>
         <div v-else>
