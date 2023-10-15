@@ -49,12 +49,12 @@ const disubmit = () => {
                     <div class="form-group mb-5">
                         <label for="nama">Nama</label>
                         <input type="text" name="nama" v-model="form.nama"
-                            class="p-3 rounded-lg  w-full bg-light bg-opacity-10  text-white">
+                            class="p-3 rounded-lg  w-full bg-light bg-opacity-10  text-white" required>
                     </div>
                     <div class="form-group mb-5">
                         <label for="email">Email</label>
                         <input type="email" name="email" v-model="form.email"
-                            class="p-3 rounded-lg  w-full bg-light bg-opacity-10 text-white">
+                            class="p-3 rounded-lg  w-full bg-light bg-opacity-10 text-white" required>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const disubmit = () => {
                     </div>
                 </div>
                 <div class="form-group mb-5">
-                    <textarea name="pesan" v-model="form.pesan" id="" cols="30" rows="10"
+                    <textarea name="pesan" v-model="form.pesan" id="" cols="30" rows="6"
                         class="rounded-lg  w-full bg-light bg-opacity-10 text-white p-3"></textarea>
                 </div>
                 <button type="submit"
