@@ -51,13 +51,13 @@ const submitForm = async () => {
                     <h2 id="hubungi" class="text-4xl font-bold mb-3">Dapatkan penawaran menarik dari kami</h2>
                     <div class="flex flex-col gap-2">
                         <p>Hubungi:</p>
-                        <a href="https://api.whatsapp.com/send?phone=6285711112016"
+                        <a href="https://wa.me/628111259029"
                             class="flex gap-2 hover:translate-x-2 duration-200"><i
-                                class="bi bi-whatsapp"></i><span>Rusli</span><span> 0281-1125-9029</span>
+                                class="bi bi-whatsapp"></i><span>Ardana Duta Perkasa</span><span> 0281-1125-9029</span>
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=6289636192223"
+                        <a href="https://api.whatsapp.com/send?phone=62895611020302"
                             class="flex gap-2 hover:translate-x-2 duration-200"><i
-                                class="bi bi-whatsapp"></i><span>Wahyudi</span><span> 0896-3619-2223</span>
+                                class="bi bi-whatsapp"></i><span>Rusli</span><span> 0895-6110-20302</span>
                         </a>
                     </div>
                     <img src="@/assets/caleg-2.png" alt="" srcset="" class="mx-auto w-full">
